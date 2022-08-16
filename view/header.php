@@ -16,7 +16,9 @@ include './init.php';
         <link href="css/styles.css" rel="stylesheet" />
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css'>
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css'>
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
@@ -26,9 +28,9 @@ include './init.php';
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-            <a class="navbar-brand" href="index.php"><img  class="looper" src="img/logo.png" style="width:15%; height:auto;" > Fides</a>
+            <a class="navbar-brand" href="index.php"><img  class="looper" src="img/logo.png" style="width:20%; height:auto;" > </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-    Menu
+                         Menu
                     <i class="fas fa-bars ms-1"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -44,9 +46,16 @@ include './init.php';
         </nav>
         <!-- Masthead-->
         <header class="masthead">
-            <div class="container">
-                <div class="masthead-subheading text-uppercase">EU Light @ Shiva</div>
-                <div class="masthead-heading text-uppercase ">Fides Sanctuary</div>
+            <div class="container-fluid ">
+               <div class="d-flex justify-content-end" >
+                   <div class="col-md-auto" >
+                        <div class="masthead-heading glow" >Fides Sanctuary</div>
+                   </div>
+                  
+               </div>
+                  
+              
+                
 
             </div>
         </header>
