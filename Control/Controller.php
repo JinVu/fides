@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-// require "Database.php";
+require "Database.php";
 
 class Controller
 {
